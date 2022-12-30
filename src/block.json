@@ -5,8 +5,8 @@
 	"version": "0.1.0",
 	"title": "Hello Dolly Block",
 	"category": "widgets",
-	"icon": "smiley",
-	"description": "Example block scaffolded with Create Block tool.",
+	"icon": "format-audio",
+	"description": "Display a random lyric from the song Hello Dolly.",
 	"supports": {
 		"align": true,
 		"color": {
