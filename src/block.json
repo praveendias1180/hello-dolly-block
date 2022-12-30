@@ -8,6 +8,11 @@
 	"icon": "smiley",
 	"description": "Example block scaffolded with Create Block tool.",
 	"supports": {
+		"align": true,
+		"color": {
+			"background": true,
+			"text": true
+		},
 		"html": false
 	},
 	"textdomain": "hello-dolly-block",
