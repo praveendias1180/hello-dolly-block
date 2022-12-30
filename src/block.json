@@ -13,6 +13,12 @@
 			"background": true,
 			"text": true
 		},
+		"__experimentalBorder": {
+			"radius": true,
+			"color": true,
+			"width": true,
+			"style": true
+		},
 		"html": false
 	},
 	"textdomain": "hello-dolly-block",
