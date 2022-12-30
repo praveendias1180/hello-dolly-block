@@ -45,7 +45,7 @@ function create_block_hello_dolly_block_render_callback( $attributes, $content, 
 	return ob_get_clean();
 }
 
-function hello_dolly_get_lyric() {
+function hello_dolly_block_get_lyric() {
 	/** These are the lyrics to Hello Dolly */
 	$lyrics = "Hello, Dolly
 Well, hello, Dolly
@@ -84,7 +84,7 @@ Dolly'll never go away again";
 }
 
 // This just echoes the chosen line, we'll position it later
-function hello_dolly() {
-	$chosen = hello_dolly_get_lyric();
-	echo "<p id='dolly'>$chosen</p>";
+function hello_dolly_render_lyric() {
+	$chosen = hello_dolly_block_get_lyric();
+	return "<span id='dolly'>$chosen</span>";
 }
